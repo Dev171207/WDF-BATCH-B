@@ -1,0 +1,102 @@
+body{
+    margin:0;
+    font-family:Arial;
+    background:#fbfaf8;
+}
+
+
+/* Header */
+
+header{
+    background:white;
+    border-top:5px solid #8c1515;
+    border-bottom:1px solid #ddd;
+    padding:20px 50px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.logo{
+    display:flex;
+    align-items:center;
+}
+
+.logo img{
+    width:45px;
+    margin-right:10px;
+}
+
+.logo h2{
+    margin:0;
+    color:#8c1515;
+}
+
+.logo p{
+    margin:3px 0;
+    color:#777;
+    font-size:12px;
+}
+
+nav a{
+    text-decoration:none;
+    color:#222;
+    margin-left:15px;
+    font-weight:bold;
+}
+
+nav a:hover{
+    color:#8c1515;
+}
+
+
+/* Attendance */
+
+main{
+    padding:60px;
+    min-height:500px;
+}
+
+main h1{
+    text-align:center;
+    color:#8c1515;
+    font-family:Georgia;
+}
+
+table{
+    width:80%;
+    margin:35px auto;
+    background:white;
+    border-collapse:collapse;
+    box-shadow:0 5px 20px #ddd;
+}
+
+th{
+    background:#8c1515;
+    color:white;
+    padding:15px;
+}
+
+td{
+    padding:15px;
+    text-align:center;
+    border-bottom:1px solid #ddd;
+}
+
+tr:hover{
+    background:#fff4f2;
+}
+
+
+/* Footer */
+
+footer{
+    background:#650d0d;
+    color:white;
+    text-align:center;
+    padding:25px;
+}
+
+footer p{
+    margin:6px;
+}
