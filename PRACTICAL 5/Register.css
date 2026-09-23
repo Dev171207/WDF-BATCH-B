@@ -1,0 +1,193 @@
+body
+{
+    margin:0;
+    font-family:Arial;
+    background:#fbfaf8;
+    color:#222;
+}
+
+
+
+
+header
+{
+    background:white;
+
+    border-top:5px solid #8c1515;
+    border-bottom:1px solid #ddd;
+
+    padding:20px 50px;
+
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+
+.logo
+{
+    display:flex;
+    align-items:center;
+}
+
+
+.logo img
+{
+    width:50px;
+    margin-right:15px;
+}
+
+
+.logo h2
+{
+    color:#8c1515;
+}
+
+
+
+
+nav a
+{
+    text-decoration:none;
+    color:#222;
+
+    margin-left:20px;
+
+    font-weight:bold;
+}
+
+
+nav a:hover
+{
+    color:#8c1515;
+}
+
+
+
+
+main
+{
+    min-height:650px;
+    padding:40px 20px;
+}
+
+
+h1
+{
+    text-align:center;
+    color:#8c1515;
+}
+
+
+
+
+form
+{
+    width:450px;
+    max-width:90%;
+
+    margin:30px auto;
+
+    padding:30px;
+
+    background:white;
+
+    border-radius:12px;
+
+    box-shadow:0 5px 20px #ddd;
+}
+
+
+label
+{
+    display:block;
+
+    margin-top:15px;
+    margin-bottom:5px;
+
+    font-weight:bold;
+}
+
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="password"],
+select
+{
+    width:100%;
+
+    padding:11px;
+
+    box-sizing:border-box;
+
+    border:1px solid #ccc;
+
+    border-radius:5px;
+}
+
+
+.gender
+{
+    margin-top:10px;
+}
+
+
+.gender input
+{
+    margin-left:10px;
+}
+
+
+.terms
+{
+    margin-top:20px;
+}
+
+
+.terms input
+{
+    margin-right:8px;
+}
+
+
+button
+{
+    width:100%;
+
+    margin-top:20px;
+
+    padding:12px;
+
+    background:#8c1515;
+
+    color:white;
+
+    border:none;
+
+    border-radius:5px;
+
+    cursor:pointer;
+
+    font-size:16px;
+}
+
+
+button:hover
+{
+    background:#650d0d;
+}
+
+
+
+
+footer
+{
+    background:#650d0d;
+
+    color:white;
+
+    text-align:center;
+
+    padding:25px;
+}
