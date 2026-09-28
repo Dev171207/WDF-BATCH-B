@@ -1,0 +1,38 @@
+[
+    {
+        "name": "Cognizance",
+        "date": "10-11-2026",
+        "category": "Technical",
+        "venue": "DEPSTAR"
+    },
+    {
+        "name": "Spoural",
+        "date": "04-01-2026",
+        "category": "Sports",
+        "venue": "Sports Complex"
+    },
+    {
+        "name": "Hackathon",
+        "date": "20-10-2026",
+        "category": "Technical",
+        "venue": "Computer Lab"
+    },
+    {
+        "name": "Cultural Fest",
+        "date": "25-10-2026",
+        "category": "Cultural",
+        "venue": "Main Auditorium"
+    },
+    {
+        "name": "Cyber kavach",
+        "date": "02-11-2026",
+        "category": "Technical",
+        "venue": "CSPIT"
+    },
+    {
+        "name": "DJ Night",
+        "date": "15-11-2026",
+        "category": "Cultural",
+        "venue": "Main Ground"
+    }
+]
