@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Feedback - Student Hub</title>
+    <link rel="stylesheet" href="Feedback.css">
+</head>
+
+<body>
+
+<header>
+
+    <div class="logo">
+        <img src="https://identity.stanford.edu/wp-content/uploads/sites/3/2020/07/block-s-right.png">
+
+        <div>
+            <h2>STUDENT HUB</h2>
+            
+        </div>
+    </div>
+
+    <nav>
+        <a href="Home.html">Home</a>
+        <a href="About.html">About</a>
+        <a href="Contact.html">Contact</a>
+        <a href="Login.html">Login</a>
+    </nav>
+
+</header>
+
+
+<main>
+
+    <h1>Student Feedback</h1>
+
+    <form onsubmit="return checkFeedback()">
+
+    <label>Name</label>
+    <input type="text" id="name">
+
+    <label>Email</label>
+    <input type="email" id="email">
+
+    <label>Rating</label>
+
+    <select id="rating">
+        <option>Excellent</option>
+        <option>Good</option>
+        <option>Average</option>
+        <option>Poor</option>
+    </select>
+
+    <label>Feedback</label>
+
+    <textarea id="feedback"></textarea>
+
+    <button type="submit">Submit Feedback</button>
+
+</form>
+
+</main>
+
+
+<footer>
+    <h3>STUDENT HUB PORTAL</h3>
+    
+    <p>Dev Pandya</p>
+</footer>
+
+<script src="Feedback.js"></script>
+
+</body>
+</html>
