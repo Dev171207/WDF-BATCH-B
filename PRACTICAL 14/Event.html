@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <title>Events</title>
+
+    <link rel="stylesheet" href="Event.css">
+
+</head>
+
+
+<body>
+
+
+<header>
+
+    <div class="logo">
+
+        <img src="https://identity.stanford.edu/wp-content/uploads/sites/3/2020/07/block-s-right.png">
+
+        <div>
+            <h2>STUDENT HUB</h2>
+        </div>
+
+    </div>
+
+
+    <nav>
+
+        <a href="Home.html">Home</a>
+        <a href="About.html">About</a>
+        <a href="Event.html">Events</a>
+        <a href="Contact.html">Contact</a>
+        <a href="FAQ.html">FAQ</a>
+        <a href="Login.html">Login</a>
+
+    </nav>
+
+</header>
+
+
+
+<main>
+
+    <h1>College Events</h1>
+
+
+    
+
+    <input type="text"
+           id="search"
+           placeholder="Search event..."
+           onkeyup="showEvents()">
+
+
+
+   
+
+    <select id="filter" onchange="showEvents()">
+
+        <option value="All">All Categories</option>
+
+        <option value="Technical">Technical</option>
+
+        <option value="Sports">Sports</option>
+
+        <option value="Cultural">Cultural</option>
+
+    </select>
+
+
+
+    
+
+    <select id="sort" onchange="showEvents()">
+
+        <option value="none">Sort By</option>
+
+        <option value="name">Name</option>
+
+        <option value="date">Date</option>
+
+    </select>
+
+
+
+    
+
+    <div id="events"></div>
+
+
+
+   
+
+    <div class="pagination">
+
+        <button onclick="previousPage()">
+            Previous
+        </button>
+
+        <span id="pageNumber">Page 1</span>
+
+        <button onclick="nextPage()">
+            Next
+        </button>
+
+    </div>
+
+
+</main>
+
+
+
+<footer>
+
+    <h3>STUDENT HUB PORTAL</h3>
+
+    <p>Dev Pandya</p>
+
+</footer>
+
+
+<script src="Event.js"></script>
+
+
+</body>
+
+</html>
