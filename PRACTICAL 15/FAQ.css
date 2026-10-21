@@ -1,0 +1,148 @@
+body
+{
+    margin:0;
+    font-family:Arial;
+    background:#fbfaf8;
+    color:#222;
+}
+
+
+
+
+header
+{
+    background:white;
+    border-top:5px solid #8c1515;
+    border-bottom:1px solid #ddd;
+    padding:20px 50px;
+
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+
+.logo
+{
+    display:flex;
+    align-items:center;
+}
+
+
+.logo img
+{
+    width:50px;
+    margin-right:15px;
+}
+
+
+.logo h2
+{
+    color:#8c1515;
+}
+
+
+
+
+
+nav a
+{
+    text-decoration:none;
+    color:#222;
+    margin-left:20px;
+    font-weight:bold;
+}
+
+
+nav a:hover
+{
+    color:#8c1515;
+}
+
+
+
+
+
+main
+{
+    min-height:600px;
+    padding:50px 20px;
+}
+
+
+h1
+{
+    text-align:center;
+    color:#8c1515;
+}
+
+
+.intro
+{
+    text-align:center;
+    margin-bottom:40px;
+}
+
+
+
+
+
+.faq
+{
+    width:700px;
+    max-width:90%;
+    margin:15px auto;
+}
+
+
+.faq button
+{
+    width:100%;
+    background:white;
+    color:#222;
+
+    border:1px solid #ddd;
+    border-left:5px solid #8c1515;
+
+    padding:18px;
+
+    text-align:left;
+    font-size:16px;
+    font-weight:bold;
+
+    cursor:pointer;
+}
+
+
+.faq button:hover
+{
+    background:#fff4f2;
+    color:#8c1515;
+}
+
+
+.faq p
+{
+    display:none;
+
+    background:white;
+
+    margin:0;
+    padding:18px;
+
+    border:1px solid #ddd;
+    border-top:none;
+
+    line-height:1.6;
+}
+
+
+
+
+footer
+{
+    background:#650d0d;
+    color:white;
+    text-align:center;
+    padding:25px;
+}
